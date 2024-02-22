@@ -1,45 +1,60 @@
-img {
-    width: 500px;
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.Открытие {
+
+body {
+    height: 100vh;
+    overflow-x: hidden;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.about{
+    margin-bottom: 25px;
+    border-bottom: 1px solid black;
+}
+
+.about__inner {
+
+}
+
+.about__title {
     text-align: center;
+    font-size: 36px;
+    margin-bottom: 16px;
 }
-.Факты {
+
+.about__subtitle{
     text-align: center;
-}
-h2 {
-    text-align: center;
-}
-
-.voda {
-    margin-left: 420px;
+    font-size: 24px;
+    margin-bottom: 16px;
 }
 
-.voda2 {
-    text-align: center;
+.about__images{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 16px;
 }
 
-.desert {
-    margin-left: 420px;
+.about__info {
+    display: flex;
+    justify-content: center;
 }
 
-.desert2 {
-    text-align: center;
-}
-
-.open {
-    margin-left: 420px;
-}
-
-.open2 {
-    text-align: center;
-}
-
-.ahtar {
-    width: 400px;
-    margin-left: 420px;
-}
-
-.aht {
-    text-align: center;
+.about__info > p {
+    max-width: 1000px;
+    padding: 16px;
+    text-align: justify;
 }
