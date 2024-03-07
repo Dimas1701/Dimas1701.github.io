@@ -11,6 +11,7 @@ body {
     overflow-x: hidden;
     font-size: 16px;
     line-height: 1.4;
+    padding-top: 80px;
 }
 
 .container {
@@ -20,3 +21,73 @@ body {
     padding: 0 16px;
 }
 
+.about{
+    margin-bottom: 25px;
+    border-bottom: 1px solid black;
+}
+
+.about__inner {
+
+}
+
+.about__title {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 16px;
+}
+
+.about__subtitle{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.about__images{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.about__info {
+    display: flex;
+    justify-content: center;
+}
+
+.about__info > p {
+    max-width: 1000px;
+    padding: 16px;
+    text-align: justify;
+}
+
+.header{
+    background-color: aliceblue;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid black;
+}
+
+.header__inner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+}
+
+.header__list{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.header__list > li{
+    display: inline-block;
+}
+
+.header__list > li > a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
